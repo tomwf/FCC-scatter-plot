@@ -7,3 +7,6 @@ This project is build with:
 
 ### Screenshot
 ![](./screenshot.png)
+
+### Link
+ - Live Site URL: [D3: Scatter plot](https://tomwf.github.io/FCC-scatter-plot/)
