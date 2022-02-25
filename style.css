@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+#chart {
+  position: relative;
+}
+
+svg {
+  overflow: visible;
+}
+
+circle {
+  stroke: black;
+  stroke-width: 1;
+}
+
+.legend-label text {
+  text-anchor: end;
+  font-size: .75rem;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: lightsteelblue;
+  padding: .75em;
+  border-radius: 8px;
+  font-size: .75rem;
+}
